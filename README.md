@@ -1,4 +1,4 @@
-Get started with frontend from scratch using Nextjs documentation: 
+Get started with Frontend from zero using Nextjs documentation: 
 
 for Js and React Basics (https://nextjs.org/learn/foundations/from-javascript-to-react)
 
@@ -61,15 +61,23 @@ HTML above represents the initial page content, whereas the DOM represents the u
 
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
-JavaScript basics for React (https://nextjs.org/learn/foundations/from-javascript-to-react/essential-javascript-react)
+JavaScript basics for React (Basic) (https://nextjs.org/learn/foundations/from-javascript-to-react/essential-javascript-react)
 
+React (https://react.dev/learn/ and https://react.dev/learn/describing-the-ui)
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-NextJs
-- install node.js (https://nodejs.org/en)
-- create nextjs app
-	- npx create-next-app
-- 
+---------------------------------------------------------------------------------------------------------------------------------------
+NextJs (https://nextjs.org/docs/getting-started/installation)
+- install node.js from (https://nodejs.org/en)
+- create nextjs app with (npx create-next-app)
+    - What is your project named? <your-app-name>
+    - Would you like to use TypeScript? <No/Yes> (strongly typed superset of JS allows to catch errors during development)
+    - Would you like to use ESLint? <No/Yes> (analyze and identify patterns of problematic or questionable code, helps maintaining code quality, enforce coding standards, and catch potential errors and bugs)
+    - Would you like to use Tailwind CSS? <No/Yes> (CSS frameworks used for building user interfaces)
+    - Would you like to use `src/` directory? <No/Yes> (ideal for larger projects)
+    - Would you like to use App Router? (recommended) <No/Yes> (yes as recommended)
+    - Would you like to customize the default import alias? <No/Yes> (No)
+- npm install
+- npm run build
+- npm start (check http://localhost:3000 on your browser)
